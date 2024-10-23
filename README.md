@@ -8,7 +8,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=FF0085&width=620&lines=🍁+🚩+𝗣𝗢𝗪𝗘𝗥𝗘𝗗+︻┻┳═सरकार
  +︻┻┳═सरकार+︻┻┳═सरकार+︻┻┳═सरकार+𝙷𝙰𝚁𝚁𝚈+🚩+🍁"></b></h3>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<h1 align="center"><b>❃ 𝐁ᴀʙʏ 𝐗 𝐓ᴜɴᴇ ❃ </b></h1>
+<h1 align="center"><b>❃ ︻┻┳═सरकार 𝐗 𝐓ᴜɴᴇ ❃ </b></h1>
 <p align="center"><a href="https://t.me/ll_SARKAR_MERA_BABU_ll"><img src="[https://envs.sh/p-o.jpg](https://envs.sh/p-o.jpg)" width="400"></a></p>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -37,4 +37,4 @@
 </p>
 
 
-- <b> sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [BABY-MUSIC™](https://github.com/BABY-MUSIC) ғᴏʀ [BABY-MUSIC™](https://github.com/BABY-MUSIC/BABYTUNE) </b>
+- <b> sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [𝙷𝙰𝚁𝚁𝚈](︻┻┳═सरकार) ғᴏʀ [𝙷𝙰𝚁𝚁𝚈](︻┻┳═सरकार) </b>
