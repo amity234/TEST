@@ -8,11 +8,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from YTMUSIC import app
-from YTMUSIC.misc import _boot_
-from YTMUSIC.plugins.play.playlist import del_plist_msg
-from YTMUSIC.plugins.sudo.sudoers import sudoers_list
-from YTMUSIC.utils.database import (
+from SARKARMUSIC import app
+from SARKARMUSIC.misc import _boot_
+from SARKARMUSIC.plugins.play.playlist import del_plist_msg
+from SARKARMUSIC.plugins.sudo.sudoers import sudoers_list
+from SARKARMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -21,9 +21,9 @@ from YTMUSIC.utils.database import (
     is_on_off,
     connect_to_chat,
 )
-from YTMUSIC.utils.decorators.language import LanguageStart
-from YTMUSIC.utils.formatters import get_readable_time
-from YTMUSIC.utils.inline import help_pannel, private_panel, start_panel
+from SARKARMUSIC.utils.decorators.language import LanguageStart
+from SARKARMUSIC.utils.formatters import get_readable_time
+from SARKARMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
