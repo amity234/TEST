@@ -1,10 +1,10 @@
 from pyrogram import filters
-from pyrogram.types import InlineKeyboardMarkup, Message
+from pyrogram.types import InlineKeyboardMarkup, Messag
 
-from YTMUSIC import app
-from YTMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from YTMUSIC.utils.decorators import language
-from YTMUSIC.utils.inline.settings import playmode_users_markup
+from SARKARMUSIC import app
+from SARKARMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from SARKARMUSIC.utils.decorators import language
+from SARKARMUSIC.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
