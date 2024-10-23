@@ -2,7 +2,7 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup
 from SARKARMUSIC import app
-from SARKARMUSIC.core.call import YT
+from SARKARMUSIC.core.call import Sar
 from SARKARMUSIC.utils import bot_sys_stats
 from SARKARMUSIC.utils.inline.extras import botplaylist_markup
 from SARKARMUSIC.utils.decorators.language import language
@@ -19,7 +19,7 @@ async def ping_com(client, message: Message, _):
         caption=_["ping_1"].format(app.mention),
     )
     start = datetime.now()
-    pytgping = await YT.ping()
+    pytgping = await Sar.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit(
