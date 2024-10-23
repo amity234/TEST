@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from SARKARMUSIC import app
-from SARKARMUSIC.core.call import YT
+from SARKARMUSIC.core.call import Sar
 from SARKARMUSIC.utils.database import set_loop
 from SARKARMUSIC.utils.decorators import AdminRightsCheck
 from SARKARMUSIC.utils.inline import close_markup
