@@ -1,4 +1,4 @@
-from SARKARMUSIC.core.bot import YT
+from SARKARMUSIC.core.bot import Sar
 from SARKARMUSIC.core.dir import dirr
 from SARKARMUSIC.core.git import git
 from SARKARMUSIC.core.userbot import Userbot
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = YT()
+app = Sar()
 api = SafoneAPI()
 userbot = Userbot()
 
