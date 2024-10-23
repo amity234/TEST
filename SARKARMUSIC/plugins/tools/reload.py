@@ -11,7 +11,7 @@ from pyrogram import filters
 load_dotenv()
 
 from SARKARMUSIC import app
-from SARKARMUSIC.core.call import YT
+from SARKARMUSIC.core.call import Sar
 from SARKARMUSIC.misc import db
 from SARKARMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
 from SARKARMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
@@ -69,7 +69,7 @@ async def restartbot(client, message: Message, _):
     await asyncio.sleep(1)
     try:
         db[message.chat.id] = []
-        await YT.stop_stream_force(message.chat.id)
+        await Sar.stop_stream_force(message.chat.id)
     except:
         pass
     userbot = await get_assistant(message.chat.id)
@@ -96,7 +96,7 @@ async def restartbot(client, message: Message, _):
             pass
         try:
             db[chat_id] = []
-            await YT.stop_stream_force(chat_id)
+            await Sar.stop_stream_force(chat_id)
         except:
             pass
     return await mystic.edit_text(_["reload_5"].format(app.mention))
