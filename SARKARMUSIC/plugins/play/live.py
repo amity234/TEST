@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from YTMUSIC import YouTube, app
-from YTMUSIC.utils.channelplay import get_channeplayCB
-from YTMUSIC.utils.decorators.language import languageCB
-from YTMUSIC.utils.stream.stream import stream
+from SARKARMUSI import YouTube, app
+from SARKARMUSIC.utils.channelplay import get_channeplayCB
+from SARKARMUSIC.utils.decorators.language import languageCB
+from SARKARMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
