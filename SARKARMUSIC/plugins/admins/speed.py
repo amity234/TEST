@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from SARKARMUSIC import app
-from SARKARMUSIC.core.call import YT
+from SARKARMUSIC.core.call import Sar
 from SARKARMUSIC.misc import SUDOERS, db
 from SARKARMUSIC.utils import AdminRightsCheck
 from SARKARMUSIC.utils.database import is_active_chat, is_nonadmin_chat
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await YT.speedup_stream(
+        await Sar.speedup_stream(
             chat_id,
             file_path,
             speed,
