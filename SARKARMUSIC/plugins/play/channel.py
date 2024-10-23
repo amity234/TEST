@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from YTMUSIC import app
-from YTMUSIC.utils.database import set_cmode
-from YTMUSIC.utils.decorators.admins import AdminActual
+from SARKARMUSIC import app
+from SARKAR.utils.database import set_cmode
+from SARKAR.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 
