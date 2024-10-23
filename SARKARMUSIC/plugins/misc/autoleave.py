@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from SARKARMUSIC import app
-from SARKARMUSIC.core.call import YT, autoend
+from SARKARMUSIC.core.call import Sar, autoend
 from SARKARMUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
@@ -59,7 +59,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await YT.stop_stream(chat_id)
+                    await Sar.stop_stream(chat_id)
                 except:
                     continue
                 try:
