@@ -6,8 +6,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from YTMUSIC import Carbon, YouTube, app
-from YTMUSIC.utils.database import (
+from SARKARMUSIC import Carbon, YouTube, app
+from SARKARMUSIC.utils.database import (
     delete_playlist,
     get_playlist,
     get_playlist_names,
@@ -19,8 +19,8 @@ from YTMUSIC.utils.inline.playlist import (
     get_playlist_markup,
     warning_markup,
 )
-from YTMUSIC.utils.pastebin import YTBin as Yukkibin
-from YTMUSIC.utils.stream.stream import stream
+from SARKAR.utils.pastebin import SARBin as Yukkibin
+from SARKAR.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = ["playlist"]
