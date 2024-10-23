@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from SARKARMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from SARKARMUSIC.core.call import YT
+from SARKARMUSIC.core.call import Sar
 from SARKARMUSIC.utils import seconds_to_min, time_to_seconds
 from SARKARMUSIC.utils.channelplay import get_channeplayCB
 from SARKARMUSIC.utils.decorators.language import languageCB
@@ -170,7 +170,7 @@ async def play_commnd(
                 except:
                     return await mystic.edit_text(_["play_3"])
                 streamtype = "playlist"
-                plist_type = "yt"
+                plist_type = "sar"
                 if "&" in url:
                     plist_id = (url.split("=")[1]).split("&")[0]
                 else:
